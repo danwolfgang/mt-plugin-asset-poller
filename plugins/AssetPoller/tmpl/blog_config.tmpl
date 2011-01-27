@@ -36,6 +36,8 @@
 
 <mtapp:setting
    id="default_tags"
-   label="Default Tags">
-  <input type="text" name="default_tags" value="<mt:var name="default_tags" escape="html">" />
+   label="Default Tags"
+   hint="Enter a comma-separated list of tags to be applied to any asset imported with Asset Poller."
+   show_hint="1">
+  <input type="text" name="default_tags" value="<mt:var name="default_tags" escape="html">" style="width: 100%;" />
 </mtapp:setting>

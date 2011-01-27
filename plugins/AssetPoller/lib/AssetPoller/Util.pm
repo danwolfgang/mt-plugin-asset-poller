@@ -1,4 +1,3 @@
-
 package AssetPoller::Util;
 
 use strict;
